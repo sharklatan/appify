@@ -8,14 +8,29 @@ Create a macOS Application from an executable (like a Go binary)
 * Set your own logo
 * Specify app metadata via flags
 
+
+## Requires
+Install Homebrew
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+Install go
+
+```bash
+brew install golang
+```
+
 ## Install
 
 To install `appify`:
 
-```bash
-go get github.com/machinebox/appify
-```
+~~go get github.com/machinebox/appify~~
 
+
+```bash
+go install github.com/machinebox/appify@latest
+```
 ## Usage
 
 ```
